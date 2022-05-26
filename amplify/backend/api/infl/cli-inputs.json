@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "infl",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/sproud/infl/amplify/backend/api/infl/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authinfl8941c0f0"
+      }
+    ]
+  }
+}
